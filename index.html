@@ -51,5 +51,9 @@ font {
 <h4>現在正在撥放:GFRIEND - LOVE WHISPER</h4>
 <audio id="myaudio" src="media/GFRIEND - LOVE WHISPER.mp3" controls="controls" autoplay loop="true" hidden="true">
 </audio>
+$(function () {
+    var myAuto = document.getElementById('myaudio');
+    myAuto.play();
+})
 </body>
 </html>
